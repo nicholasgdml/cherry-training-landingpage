@@ -20,10 +20,9 @@ body {
 header {
     display: flex;
     padding: 1em;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-inline: 3em;
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.425);
+    border-bottom: 3px dotted rgba(255, 255, 255, 0.425);
 }
 
 a {
@@ -81,5 +80,5 @@ h2 {
 }
 
 footer {
-    border-top: 1px dotted rgba(255, 255, 255, 0.425);;
+    border-top: 3px dotted rgba(255, 255, 255, 0.425);;
 }
