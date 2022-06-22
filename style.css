@@ -82,3 +82,102 @@ h2 {
 footer {
     border-top: 3px dotted rgba(255, 255, 255, 0.425);;
 }
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .tshirts-image {
+        width: 480px;
+    }
+  } 
+
+@media screen and (max-width: 960px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin: 1.4em;
+        padding: 0px;
+    }
+
+    .logo-cherry {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 0.9;
+    }
+    .main-page {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .text-of-cherrystore {
+        margin: 1em;
+    }
+
+    .tshirts-image {
+        width: 320px;
+    }
+  } 
+
+  @media screen and (max-width: 325px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        font-size: 0.7em;
+        padding: 0px;
+    }
+
+    .logo-cherry {
+        width: 56px;
+    }
+
+    .botao-contato {
+        font-size: 1em;
+        padding: 0.20em;
+        margin: 1em;
+        border: 3px #ffffff solid;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+    
+    h2 {
+        font-size: 0.7em;
+        margin: 0;
+        padding: 0;
+    }
+    .main-page {
+        flex-direction: column;
+        padding: 5px;
+        margin-inline: 5px;
+    }
+
+    .text-of-cherrystore {
+        line-height: 1.38em;
+        padding: 0;
+    }
+
+    .tshirts-image {
+        width: 256px;
+    }
+  } 
